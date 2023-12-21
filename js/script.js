@@ -11,6 +11,7 @@ console.log('JS OK')
 
 
 
+
 */
 //VARIABILI FISSE
 const element = document.getElementById('target')
@@ -22,18 +23,19 @@ const list = document.createElement('ul')
 for (let i = 1; i <= 100; i++) {
     let number = i;
     if (number % 3 === 0 && number % 5 === 0) {
-        number = ('FizzBuzz')
+        number = ('fizzbuzz')
     }
     else if (number % 3 === 0) {
-        number = ('Fizz')
+        number = ('fizz')
 
     }
     else if (number % 5 === 0) {
-        number = ('Buzz')
+        number = ('buzz')
     }
     listItem = document.createElement('li');
     listItem.append(number);
     list.appendChild(listItem)
+    listItem.classList.add(number)
 
 }
 //Tolto lo stile alla lista

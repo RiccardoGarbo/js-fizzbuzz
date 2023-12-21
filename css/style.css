@@ -26,3 +26,16 @@ h1 {
     text-align: center;
     margin-bottom: 3rem;
 }
+
+.fizz {
+    background-color: yellow;
+}
+
+.fizzbuzz {
+    background-color: red;
+}
+
+
+.buzz {
+    background-color: green;
+}
